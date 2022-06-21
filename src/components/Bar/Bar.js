@@ -1,8 +1,8 @@
 import './Bar.css'
 
-function Bar(){
+function Bar(props){
     return(
-        <div className="bar">
+        <div style = {{'height' : props.height}} className="bar">
         </div>
     );
 }
