@@ -1,6 +1,13 @@
 .bar{
     height: 100px;
-    width: 5px ;
+    width: 6px ;
     background-color: white;
-    margin: 5px;
+    margin: 2px;
+}
+.v{
+    color: black;
+    width: 5px;
+    /* margin: 5px; */
+    font-size:x-small;
+    transform: rotateX(180deg);
 }
